@@ -79,7 +79,7 @@ Explanation: The two lists do not intersect, so return null.
 **Language:** Java  
 **Runtime:** 2 ms (beats 50.09%)  
 **Memory:** 52.6 MB (beats 78.41%)  
-**Submitted:** 2026-10-28T10:42:27.285Z  
+**Submitted:** 2026-10-28T10:43:25.647Z  
 
 ```java
 /**
