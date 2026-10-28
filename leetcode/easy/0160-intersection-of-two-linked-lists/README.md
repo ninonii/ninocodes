@@ -77,9 +77,9 @@ Explanation: The two lists do not intersect, so return null.
 ## Solution
 
 **Language:** Java  
-**Runtime:** 0 ms  
-**Memory:** 41.9 MB  
-**Submitted:** 2026-10-28T10:36:06.264Z  
+**Runtime:** 2 ms (beats 50.09%)  
+**Memory:** 52.6 MB (beats 78.41%)  
+**Submitted:** 2026-10-28T10:42:27.285Z  
 
 ```java
 /**
@@ -98,14 +98,17 @@ public class Solution {
         ListNode a = headA;
         ListNode b = headB;
 
-        while( a!= null){
+        while( a!= b){
             if(a== null){
                 a= headB;
             }else{
                 a=a.next;
             }
-        }if(b!= null){
-            b= b.next;
+        if(b== null){
+            b =headA;
+            }else{
+             b= b.next;
+            }
         }
         return a;
         
