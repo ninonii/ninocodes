@@ -27,7 +27,7 @@ Explanation: The stack is already sorted in ascending order.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-19T05:11:45.090Z  
+**Submitted:** 2026-11-20T04:02:04.263Z  
 
 ```java
 class Solution {
